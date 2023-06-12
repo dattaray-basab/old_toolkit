@@ -39,7 +39,7 @@ func (t *Tools) RandomString(n int) string {
 	return string(s)
 }
 
-func Capitalize(s string) string {
+func  (t *Tools) Capitalize(s string) string {
 	if len(s) == 0 {
 		return s
 	}
