@@ -39,6 +39,14 @@ func (t *Tools) RandomString(n int) string {
 	return string(s)
 }
 
+func (t *Tools) Capitalize(s string) string {
+	if len(s) == 0 {
+		return s
+	}
+	return strings.ToUpper(s[0:1]) + s[1:]
+}
+
+
 // UploadedFile is a struct used to save information about an uploaded file
 type UploadedFile struct {
 	NewFileName      string
