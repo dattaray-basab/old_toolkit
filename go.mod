@@ -1,3 +1,3 @@
-module github.com/dattaray-basab/toolkit
+module github.com/dattaray-basab/toolkit/tooling
 
 go 1.20
